@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class car {
 
-    private String color;
+    public String color;
 
     public void setColor(String color) {
         this.color = color;
@@ -24,5 +24,14 @@ public class car {
     public String getColor() {
 
         return color;
+    }
+
+    @Override
+    public String toString() {
+        return color;
+    }
+
+    public void sendEmail() {
+
     }
 }

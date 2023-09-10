@@ -17,4 +17,5 @@ public class ObjectFactory {
         System.out.println("testing configuration class methods!!!!!!");
         return new car("Blue");
     }
+
 }

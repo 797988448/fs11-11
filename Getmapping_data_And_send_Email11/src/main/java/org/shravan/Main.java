@@ -15,21 +15,16 @@ import java.util.concurrent.atomic.AtomicReference;
 
 @SpringBootApplication
 public class Main {
-    public static void main(String[] args) throws JsonProcessingException {
+    public static void main(String[] args) {
 
 
         SpringApplication.run(Main.class, args);
-//        Apitest ob=new Apitest();
-//        String str=ob.toString();
-        ObjectMapper objectMapper = new ObjectMapper();
-        String jSon="{api/getMyBean}";
-        String User = null;
-        try {
-            User user = objectMapper.readValue(jSon, User.class);
-        }catch (Exception e){
-            System.out.println(e);
-        }
-        String message = String.valueOf((Object) null);
+
+        car ob=new car();
+        String str=ob.toString();
+
+
+        String message = String.valueOf((str));
         String subject = "Coder SHRAVAN";
         String to = "shravankm93@gmail.com";
         String from = "shravankumar797988@gmail.com";
@@ -39,7 +34,7 @@ public class Main {
     }
 
             //this is reportable email
-            private static void sendEmail(String message , String subject, String to, String from) {
+            public static void sendEmail(String message , String subject, String to, String from) {
                 //Varible for mail
                 String host="smtp.gmail.com";
 
@@ -82,7 +77,11 @@ public class Main {
                     System.out.println(e);
                 }
             }
-        }
+
+    public static void sendEmail() {
+
+    }
+}
 
 
 
