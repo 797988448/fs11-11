@@ -1,4 +1,4 @@
-# <h1 align = "center"> Restaurant_Model Using Spring_Boot </h1>
+# <h1 align = "center"> URL Hit Counter Using Spring_Boot </h1>
 ___ 
 <p align="center">
 <a href="Java url">
@@ -49,7 +49,7 @@ ___
 
 <!-- Usage -->
 ## Usage
-- Access the application at `http://localhost:8086`.
+- Access the application at `http://localhost:8080`.
 - Use the provided API endpoints to manage your User Management.
 
 ### Controller:
@@ -60,21 +60,11 @@ ___
 ### API Reference
 
 #### Add Users :
-POST Method :  http://localhost:8080/restaurantModel
+Get Method :  http://localhost:8080/count
 
 
 #### Get All Users :
- - GET Method : http://localhost:8080/get/restaurantModel
-
-
- #### DELETE User :
- - DELETE Method :   http://localhost:8080/remove/value/2
-
-  #### Update User ID :
- - PUT Method :   http://localhost:8080/speciality/food/Id/10?speciality=food
-
-
-
+ - GET Method : http://localhost:8080/username/shravan/count
 
  <!-- Acknowledgments -->
 ## Acknowledgments
@@ -83,7 +73,8 @@ POST Method :  http://localhost:8080/restaurantModel
 <!-- Contact -->
 ## Contact
 For questions or feedback, please contact : Deepak kumar singh   -
-- Maild Id : deepak76311@gmail.com
+- Maild Id : shravankm93@gmail.com
 
 <h1 align="center">Thank You...<h1>
-<h3 align = "center"> ***********************************************************<h3># Restaurant_model
+<h3 align = "center"> ***********************************************************<h3>
+* URL Hit Counter
