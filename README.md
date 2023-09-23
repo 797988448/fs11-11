@@ -1,4 +1,4 @@
-# <h1 align = "center"> URL Hit Counter Using Spring_Boot </h1>
+# <h2 align = "center"> Validation in Springboot (User Management System) </h2>
 ___ 
 <p align="center">
 <a href="Java url">
@@ -38,19 +38,25 @@ ___
 - Spring Web Initializer
 - Maven
 - Spring Web Dependency
+- Validation
+- MYSQL
+- JPA
+- SWAGGER
+
+
 
 <!-- Key Features -->
 ## Key Features
-- Add Restaurant_MOdel
-- Get All Model.
+- Add Validation
+- Get All validation.
 - Get User Details By Id.
-- Delete Restaurant By Id.
-- Update SpecialityType Id
+- Delete Validation By Id.
+- Update UserName
 
 <!-- Usage -->
 ## Usage
 - Access the application at `http://localhost:8080`.
-- Use the provided API endpoints to manage your User Management.
+- Use the provided API endpoints to CRUD Operation.
 
 ### Controller:
 - It consists of a class named APIController which basically controls the flow of data.
@@ -60,11 +66,18 @@ ___
 ### API Reference
 
 #### Add Users :
-Get Method :  http://localhost:8080/count
+PostMethod :  http://localhost:8080/gets
+### UPdate User:
+PutMapping : http://localhost:8080/update/userName/id
+
+### Delete User:
+DeleteMapping: http://localhost:8080/update/userName/id
 
 
 #### Get All Users :
- - GET Method : http://localhost:8080/username/shravan/count
+ - GET Method : http://localhost:8080/remove/id/{id}
+
+ 
 
  <!-- Acknowledgments -->
 ## Acknowledgments
@@ -72,9 +85,9 @@ Get Method :  http://localhost:8080/count
 
 <!-- Contact -->
 ## Contact
-For questions or feedback, please contact : Deepak kumar singh   -
+For questions or feedback, please contact : SHRAVAN KUMAR   -
 - Maild Id : shravankm93@gmail.com
 
 <h1 align="center">Thank You...<h1>
 <h3 align = "center"> ***********************************************************<h3>
-* URL Hit Counter
+*  Validation in Springboot
